@@ -10,4 +10,4 @@ editor_options:
 
 Welcome to my winter quarter rotation documentation website.
 
-Here are helpful articles to get background info: [articles](notes.)
+Here are helpful articles to get background info: [articles](notes.html)
