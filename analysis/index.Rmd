@@ -8,4 +8,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+Welcome to my winter quarter rotation documentation website.
+
+Here are helpful articles to get background info: [articles](notes.)
