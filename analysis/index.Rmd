@@ -8,6 +8,18 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my winter quarter rotation documentation website.
+### Welcome to my winter quarter rotation documentation website.
 
-Here are helpful articles to get background info: [articles](notes.html)
+**Here are general misc. notes and information relevant to this project:** [background info](notes.html)
+
+**Here are helpful articles and notes to get background info:** [literature review](literature.html)
+
+**Weekly goals & meeting minutes:** (set up webpage)
+
+**Data:** (set up webpage)
+
+**Goals of my rotation project:**
+
+* Understanding formation and function of biomolecular condensates
+* Investigating and visualizing protein organization within heat shock-induced condensates
+* Learning imaging approaches to probe the specificity of assembly of heat shock-induced condensates; training will include microscope set-up, protein labeling and potential single-molecule imaging techniques 

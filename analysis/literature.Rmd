@@ -1,0 +1,162 @@
+---
+title: "Literature Review"
+author: "j-shangguan"
+date: "2021-01-15"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+## **Condensates**
+
+### Shorter J. The mammalian disaggregase machinery: Hsp110 synergizes with Hsp70 and Hsp40 to catalyze protein disaggregation and reactivation in a cell-free system. PLoS One. 2011;6(10):e26319. https://doi:10.1371/journal.pone.0026319
+* In yeast: Hsp104
+    + Hsp104 is a AAA+ ATPase that breaks apart large assemblies 
+    + Hsp104 works with Hsp70 and Hsp40 for protein disaggregation
+        - Recovers enzymatically active proteins from aggregates 
+        - Circumvents costs of needing to degrade protein and replace it (transcription, translation)
+    + In yeast: 
+        - Hsp110= Sse1; Sse1 regulates ATP hydrolysis of Hsp70 
+        - Hsp70 = Ssa1
+        - Hsp40 =Sis1, Ydj1
+* No Hsp104 in animals/Metazoa 
+    + Hsp110 works with chaperones Hsp70 and Hsp40 to drive disaggregation in mammals
+    + In mammals: 
+        - Hsp110= Apg-2 
+        - Hsp70 = Hsc70, Hsp70
+        - Hsp40 =Hdj1
+* Cooperation between these components is not species limited
+    + Hsp104 can work with mammalian chaperones
+    
+### Cinar, H., Winter, R. The effects of cosolutes and crowding on the kinetics of protein condensate formation based on liquid–liquid phase separation: a pressure-jump relaxation study. Sci Rep 10, 17245 (2020). https://doi.org/10.1038/s41598-020-74271-x
+
+* Metastable between binodal (coexistence) and spinodal curve
+    + Below spinodal curve is two-phase region
+* Phase separation processes are different in binodal vs spinodal region 
+    + Metastable region
+        - Nucleation and growth 
+        - Tiny droplets of form, grow via solute diffusion, and combine 
+        - Rate of nucleation is determined by energy barrier of making boundary surface of new phase
+            - If thermal fluctuations allow droplet to grow to critical size where SA costs <volume energy returns, then nucleation occurs
+            - After droplet formed, solute from local area go into droplet 
+    + Spinodal decomposition
+        - Spontaneous formation of domains of higher and lower concentrations 
+
+
+### Walters RW, Muhlrad D, Garcia J, Parker R. Differential effects of Ydj1 and Sis1 on Hsp70-mediated clearance of stress granules in Saccharomyces cerevisiae. RNA. 2015;21(9):1660-1671. https://doi:10.1261/rna.053116.115
+
+* System: yeast
+* Background
+    + mRNP granule (messenger ribonucleoprotein)
+        - Types
+            - P-bodies
+                - Translationally repressed mRNAs, translational repressor, and mRNA degradation machinery 
+                - mRNA either is: stored, degraded, returned to translation
+            - Stress granules
+                - Nontranslating mRNAs, mRNA binding proteins, translation initiation machinery 
+                - mRNA is stalled during translation and then recovered 
+        - granule assembly potentially promoted by intrinsically disordered domains
+    + Results
+        - Hsp70 and Hsp40 proteins colocalize with stress granules
+            - Ded1-mCherry: labeling stress granule resident protein
+        - Defects in Hsp70 or Hsp40 inhibit stress granule disassembly during stress recovery 
+            - Ydj1 defects inhibited translation recovery --> vacuole stress granule accumulation
+            - Sis1 defects did not affect translation --> cytoplasmic stress granule accumulation
+
+### 2015 paper (cite)
+
+* Main takeaway: heat shock induced protein aggregates are reversible and have biological activity 
+* Aggregates: pellatable proteins that are soluble pre-heat shock 
+* Imaging in Fig.2 
+    + C-terminal fluorescently tagged yeast at their native chromosomal loci 
+    + Yeast diploid strains: mRuby2, Pab1-Clover
+    + Imaged at 30 deg. C
+    + 8 min. heat shock at 46 deg. C 
+    + Results
+        - Control: After heat shock, Non-aggregating glycolytic enzyme Pgk1-mRuby2 is cytosolic and diffuse
+        - Pab1-mRuby2 and Pab1-Clover form cytosolic foci
+        - Components of the multisynthetase complex colocalize with Pab1
+            - Mes1 and Gus1 colocalize with Pab1 
+            - Arc1 colocalizes with Gus1 
+            - Ola1 colocalizes with Pab1
+            - Four heat-shock granule components: Mes1, Gus1, Arc1, Ola1, where
+                - AME complex: heterotrimer of Arc1, Mes1, Gus1 that interact via N-terminal domains
+                    - Arc1: aminoacylation cofactor
+                    - Mes1: Methionyl-tRNA synthetase 
+                    - Gus1: glutamyl-tRNA synthetase
+            - Fig5: AME is stoichiometric complex
+        - Fig6. Disaggregation of heat-shock granules after 1 hr recovery
+        - Imaging done with spinning-disk confocal fluorescence microscopy 
+
+### 2017 paper (cite)
+* Demixing = phase separation 
+* Main takeaways
+    + Temperature and pH affect Pab1 phase separation
+    + RNA inhibits phase separation
+    + P domain promotes demixing but is not required 
+    + Phase separation contributes to stress tolerance and adaptive thermal sensitivity 
+* Quinary structures: no fixed stoichiometry 
+    + Often multivalent interactions, e.g. between LCRs
+        - Low-complexity regions (LCRs): contain higher freq of a certain set of AA
+* Pab1 structure in budding yeast
+    + Short N-terminal leader sequence
+        - Leader sequence: between promoter and coding region, regulate gene expression
+        - More about leader sequences: Mølhøj, M., Degan, F. Leader sequences are not signal peptides. Nat Biotechnol 22, 1502 (2004). https://doi.org/10.1038/nbt1204-1502
+    + 4 RNA-recognition motifs (RRMs)
+    + P domain: proline-rich LCR; intrinsically disordered
+    + C-terminal peptide binding domain 
+* Results
+    + Fig1. Confocal fluorescence microscopy
+        - Diploid strains: Pab1-mRuby2, Pab1-Clover 
+        - 8 minute incubation at temp. 
+        - Controls: no Pab1 in stress granules at 42 deg. C (or 30)
+        - 10 min heat shock,46 deg. C: Pab1 localizes to stress granules
+    + Fig.2: looking at Pab1 demixing in vitro 
+        - Purified recombinant yeast Pab1 from E coli 
+        - Pab1 is monomeric in shifts up to 33 deg. C
+              - Shift to 36 deg. and above accelerates Pab1 demixing
+        - 2F: measuring radial growth length 
+    + Fig. 3: “Pab1 quinary assemblies form by phase separation and gel formation”
+        - Demixing is affected by ionic strength and pH 
+            - High salt concentrations --> inhibited demixing at 46 deg
+            - pH>7 --> inhibited demixing at 46 deg
+        - Making Pab1 quinary assemblies
+            - Pab1-mRub2 in unlabeled Pab1 solution, 1:20	
+            - Demixing, then imaged at room temperature within 1-2 min
+                - Heat-induced demixing: branched clusters of spherical droplets
+                - pH-induced demixing: spherical droplets
+                - What if both? --> Does changing pH, then changing temp cause branched clustering?
+        - Forming two-layer droplet 
+            - Clover-Pab1 in unlabeled Pab1, 1:20
+            - Trigger phase separation, then wait 5 min
+            - Added Pab1-mRub2 in unlabeled Pab1 solution, 1:20
+            - Result: after 24 hours, layers did not mix
+
+Include notes from Wallace et al. (2015), Kroschwald et al. (2015)
+
+## **Superresolution Imaging of Condensates**
+
+### Jain S, Wheeler JR, Walters RW, Agrawal A, Barsic A, Parker R. ATPase-Modulated Stress Granules Contain a Diverse Proteome and Substructure. Cell. 2016;164(3):487-498. https://doi:10.1016/j.cell.2015.12.038
+* Anti-GFP-AF647 for STORM imaging of GFP-G3BP in stress granules
+* Induced stress granules with sodium azide and then lysed to get yeast cell lysate
+
+### Wang JT, Smith J, Chen BC, et al. Regulation of RNA granule dynamics by phosphorylation of serine-rich, intrinsically disordered proteins in C. elegans. Elife. 2014;3:e04591. Published 2014 Dec 23. https://doi:10.7554/eLife.04591
+* Lattice sheet microsopy on GFP-MEG3 and mCherry-PGL3 in P granules in C elegans
+* MEG3 surrounds P granule
+* Images not super clear...
+
+
+### Pab1 labeled with Alexa Fluor 488 or Alexa Fluor 647 carboxylic acid succinimidyl ester dyes for confocal microscopy as done here: https://doi.org/10.1101/2020.08.07.234443
+
+
+### Wheeler JR, Matheny T, Jain S, Abrisch R, Parker R. Distinct stages in stress granule assembly and disassembly. Elife. 2016;5:e18413. Published 2016 Sep 7. https://doi:10.7554/eLife.18413
+* Stress granule assembly disassembly in mammalian cells primarily, also yeast
+*	Focus is on interactions among IDR driving phase separation
+* Another SIM paper of GFP-G3BP1
+* Stress induced via NaAsO2 (sodium arsenate) in mammalian system 
+* Low temperature inhibits mammalian stress granule assembly 
+* Although supposedly low temperature promotes LLPS, authors propose that granule assembly is from mRNPs oligomerizing into stable core complexes
+    + Core structure contains then a local high concentration of IDRs, triggereing local phase separation
+
+### Wei-jie Zeng, Chuxin Lu, Yuanyuan Shi, Chunyan Wu, Xinxin Chen, Chunmei Li, Jie Yao, Initiation of stress granule assembly by rapid clustering of IGF2BP proteins upon osmotic shock, Biochimica et Biophysica Acta (BBA) - Molecular Cell Research, 2020, https://doi.org/10.1016/j.bbamcr.2020.118795.
+* Dual-color STORM of recruitment of IGF2BP1 and polyA mRNA to stress granule during osmotic stress 
+*	Fixed U2OS cells: mEos2-IGF2BP1 (first imaged), polyA mRNA detected via AF647-oligodT probe
