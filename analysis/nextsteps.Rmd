@@ -1,0 +1,52 @@
+---
+title: "Initial experimental plans"
+author: "j-shangguan"
+date: "2021-01-21"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+### Updates
+* Labeled and unlabeled Pab1 is available:
+    + Haneul will provide me with untagged Pab1, Pab1-Clover, Pab1-mRuby2
+* I will shadow Sammy for Nug1 purification (2 day training; early February)
+ 
+### First round of experiments
+* See Pab1 on aligned microscope set-up 
+  + Add 15 mM of Pab1 (buffered in 20mM sodium acetate, 150mM KC) on a slide, then image 
+      - Do this for Pab1-Clover and Pab1-mRuby2 to compare results
+  + Goal: see something fluorescent
+
+* See a single Pab1 condensate 
+  1. Choose either Pab1-Clover or -mRuby2, 
+  2. 1:20 labeled Pab1 in unlabeled Pab1 solution
+  3. Incubate at 30 deg. C or 46 deg. C for 8 min, then image 
+  + Goal: 1) practice making heat shock-induced condensates; 2) see spherical droplet
+
+* Make 2 layer Pab1 droplets
+  1. Clover-Pab1 in unlabeled Pab1 (1:20)
+  2. Incubate at 30 deg. C or 46 deg. C for 8 min
+  3. Add Pab1-mRuby2 in unlabeled Pab1 (1:20)
+  4. Image 
+  + Goal: 1) practice making multi-layer droplets; 2) see two unmixed condensates
+  
+### Once reagents arrive
+* Test Pab1-mRuby2 or -Clover single condensate in STORM buffer conditions, then image
+  + Goal: see if STORM imaging buffer changes condensate morphology
+* Label Pab1 with AF647 via ester-amine reaction
+
+
+----
+
+### Procedures from 2015 paper
+
+* Protein assembly
+    + "For in vitro studies, purified recombinant protein was subjected to brief heat shock
+(when applicable) using an Eppendorf ThermoMixer F1.5 heat block, deposited on a slide and immediately imaged. For imaging experiments performed between pH 5.7 and pH 6.4, purified protein samples were buffered in 20mM HEPES, 150mM KCl. For imaging experiments performed between pH 5.0 and 5.6, purified protein samples were buffered in 20mM sodium acetate, 150mM KCl."
+
+* Mixing experiment
+    + "15 mM 1:20 Clover:unlabeled Pab1 was assembled, on-slide, via a 10x dilution with buffer containing 50 mM sodium acetate and 150 mM KCl. After 5 min, 15 mM 1:20 mRuby2:unlabeled Pab1was added to the sample slide, then imaged using an Olympus DSU spinning-disk confocal microscope, with 100x oil immersion objective and FITC/Cy2 and DsRed filter sets for Clover and mRuby2, respectively."
+
+
+

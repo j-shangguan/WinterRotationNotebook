@@ -14,7 +14,9 @@ editor_options:
 
 **Here are helpful articles and notes to get background info:** [literature review](literature.html)
 
-**Weekly goals & meeting minutes:** (set up webpage)
+**Here are my experimental plans**: [plans](nextsteps.html)
+
+**This is what I'm up to:** [activity log](dailylog.html)
 
 **Data:** (set up webpage)
 

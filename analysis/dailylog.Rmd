@@ -1,0 +1,60 @@
+---
+title: "Daily Log"
+author: "j-shangguan"
+date: "2021-01-19"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Week 1: Jan. 11-15
+
+* Project planning
+    + Reading literature 
+    + Detailed rotation project outline 
+
+## Week 2: Microscope set-up training
+### Jan 17 
+* Aligning the laser 
+    + prism in front of diode laser
+    + lens 
+        - focal length
+        - collimated beam of light (parallel rays in beam) vs. converging to a focus 
+            - collimated: focused at infinity; place lens focal length distance away from source
+            - if collimated light enter a lens, it focuses one focal length distance away 
+        - confocal vs widefield setup 
+        - adding magnification 
+
+### Jan 18 
+* Aligning the laser continued
+    + adding mirrors to direct beam into microscope
+    + adjusting mirrors to center light path and make beam symmetric 
+    + using irises to check along light path
+    + checking backscatter of light for each lens in path
+    + added filters to path 
+* Drummond lab meeting: Jared's research
+* Squires lab meeting: Kyle's research proposal/interests
+
+### Jan 19 
+* Setting up the camera
+  + added Kohler lens for widefield microscopy
+  + directed light from microscope side port into camera 
+  + detected blinking from Sharpie-marked coverslips
+* Meeting with Allan and Allison about my rotation project outline/research plans 
+  
+### Jan 20
+* Setting up the camera
+  + readjust Kohler lens and lens paths to camera, readjust camera 
+* Imaged Ranchi ruler to get pixel size  
+* Learned how to use plasma etcher to clean glass slides
+* Calculations
+  + calculating Raleigh scattering and filters needed to attenuate power
+  + calculating Raman scattering 
+
+### Jan 21
+* Used UV-Vis to take absorbance data on filters 
+    + longpass, emission
+    + bandpass
+    + excitation
+
+
