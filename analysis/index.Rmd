@@ -13,10 +13,12 @@ editor_options:
 ### Get up to speed on the biological context of my project
 
 **Here are general misc. notes and information relevant to this project:** [background info](notes.html)
-* Methods for studying condensates: [studying_condensates.html]
+
+* [Methods for studying condensates](studying_condensates.html)
 
 **Here are helpful articles and notes to get background info:** [literature review](literature.html)
-* Specifically about Nug1: [Nug1 info](nug1.html)
+
+* [Specifically about Nug](nug1.html)
 
 
 ### Take a peek at my project progress
