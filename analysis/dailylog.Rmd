@@ -58,13 +58,12 @@ editor_options:
     + excitation
 
 ### Jan 22
-?
+* Made fraction of emitted fluorescence spectrum 
 
 ### 1.24.21
 * Imaged sharpie sample
 * Worked on beam intensity calculation
 * Worked on gain conversion calculation
-* Made fraction of emitted fluorescence spectrum 
 
 ## Week 3: Data Analysis, Rotation Project Material Prep
 

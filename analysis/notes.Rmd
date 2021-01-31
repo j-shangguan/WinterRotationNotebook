@@ -29,6 +29,29 @@ editor_options:
     + AF dye compatible 
     + Illuminates thin section that is orthogonal to detection path
 
+## Super-res: STORM basics
+* Photodegradation of fluorophore
+    + Triplet-excited state: intermediate that is prone to undergo energy-transfer or electron transfer reactions with oxygen, which leads to photobleaching 
+    + Oxygen quenches fluorophores in the triplet state
+        - Oxidized dyes are no longer fluorescent 
+    + Triplet states contribute to dye instability 
+* If fluorophore stays in triplet state for long time (half a second) —-> will be dark
+* Laser excitation pushes fluorophore to dark state, and then single fluorosphores stochastically return to an emissive state, excited and detected
+    + When fluorophore absorbs light, electrons are excited from ground state to excited singlet state
+    + Relaxation to ground state results in emission of fluorescence 
+    + When electron is excited to high energy singly state, it may go into triplet state
+triplet state is a long off state 
+* Oxygen scavenging system: catalase, glucose, glucose oxidase
+    + Oxygen scavenging system lowers effective duty cycle and photobleaching
+    + Glucose oxidase and catalase leads to buffer acidification over time             
+    + https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3675867/ 
+    + There is also PCA/PCD oxygen scavenging system 
+* Thiol (reducing agent) 
+    + Reducing agents extend period that fluorophore exists in off state 
+* Trolox stabilizes AF647
+* Example imaging buffer composition: 10% glucose/17.5µM glucose oxidase/708 nM catalase/10mM MEA/10 mM NaCl/200mM Tris pH 8.0
+    + https://www.pnas.org/content/pnas/suppl/2019/03/18/1817222116.DCSupplemental/pnas.1817222116.sapp.pdf 
+
 ## Laser Fundamentals
 
 * LASER= light amplification by the stimulated emission of radiation 
