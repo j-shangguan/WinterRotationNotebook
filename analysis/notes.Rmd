@@ -19,7 +19,8 @@ editor_options:
 * Spinning disc confocal 
     + Rotating opaque disk with many pinholes arranged in spiral pattern
     + Disc spins at high speeds
-    + Opaque areas block out of focus light from excitation and emission light paths
+    + Opaque areas block out-of-focus light from excitation and emission light paths
+        - Pinhole blocks light coming from out-of-focus and reduces image blurring
     + Pinholes scan across sample in rows
 * LICASP8 STED 
     + Wide light laser 470-670 nm 
@@ -61,6 +62,9 @@ editor_options:
     + Nuclei form spontaneously 
     + No spatial control of where nuclei form 
     + Tracking of single molecules in stress granules, P bodies 
+* [Phase Transformations Lecture](https://ocw.mit.edu/courses/chemical-engineering/10-626-electrochemical-energy-systems-spring-2014/study-materials/MIT10_626S14_S11lec38.pdf)
+
+![Phase Separation Model](images/phase.png)
 
 ## Misc notes
 

@@ -6,9 +6,10 @@ output: workflowr::wflow_html
 editor_options:
   chunk_output_type: console
 ---
+
 ## **Condensates**
 
-### Shorter J. The mammalian disaggregase machinery: Hsp110 synergizes with Hsp70 and Hsp40 to catalyze protein disaggregation and reactivation in a cell-free system. PLoS One. 2011;6(10):e26319. https://doi:10.1371/journal.pone.0026319
+### Shorter J. The mammalian disaggregase machinery: Hsp110 synergizes with Hsp70 and Hsp40 to catalyze protein disaggregation and reactivation in a cell-free system. PLoS One. 2011;6(10):e26319. https://doi.org/10.1371/journal.pone.0026319
 * In yeast: Hsp104
     + Hsp104 is a AAA+ ATPase that breaks apart large assemblies 
     + Hsp104 works with Hsp70 and Hsp40 for protein disaggregation
@@ -28,7 +29,6 @@ editor_options:
     + Hsp104 can work with mammalian chaperones
     
 ### Cinar, H., Winter, R. The effects of cosolutes and crowding on the kinetics of protein condensate formation based on liquid–liquid phase separation: a pressure-jump relaxation study. Sci Rep 10, 17245 (2020). https://doi.org/10.1038/s41598-020-74271-x
-
 * Metastable between binodal (coexistence) and spinodal curve
     + Below spinodal curve is two-phase region
 * Phase separation processes are different in binodal vs spinodal region 
@@ -43,7 +43,6 @@ editor_options:
 
 
 ### Walters RW, Muhlrad D, Garcia J, Parker R. Differential effects of Ydj1 and Sis1 on Hsp70-mediated clearance of stress granules in Saccharomyces cerevisiae. RNA. 2015;21(9):1660-1671. https://doi:10.1261/rna.053116.115
-
 * System: yeast
 * Background
     + mRNP granule (messenger ribonucleoprotein)
@@ -54,7 +53,7 @@ editor_options:
             - Stress granules
                 - Nontranslating mRNAs, mRNA binding proteins, translation initiation machinery 
                 - mRNA is stalled during translation and then recovered 
-        - granule assembly potentially promoted by intrinsically disordered domains
+        - Granule assembly potentially promoted by intrinsically disordered domains
     + Results
         - Hsp70 and Hsp40 proteins colocalize with stress granules
             - Ded1-mCherry: labeling stress granule resident protein
@@ -133,13 +132,60 @@ editor_options:
 
 Include notes from Wallace et al. (2015), Kroschwald et al. (2015)
 
+## **Pab1 and Condensates**
+
+### Yoo H, Triandafillou C, Drummond DA. Cellular sensing by phase separation: Using the process, not just the products. J Biol Chem. 2019;294(18):7151-7159. https://doi.org/10.1074/jbc.TM118.001191
+* Phase separation, then assembly process of phase-separated subassemblies 
+    + Distinction between formation process and final product
+* Liquid-liquid phase separation: single liquid phase transitions to 2 or more distinct liquid phases
+* Phase separation allows for fast system-wide changes in repsonse to stimuli, so that matter is rearranged quickly and potentially without an energy cost
+* Two important properties of phase separation in relation to sensing
+     + Phase separations are cooperative 
+     + Phase changes allow for cellular matter to be rearranged with less time and energy cost compared to de novo synthesis of mRNA or protein and degradation 
+* Environmental temperature changes have large effects on system-wide behavior 
+    + Most organisms live within a narrow thermal range 
+    + When temp rises, heat-shock proteins are produced
+    + Eukaryotes form stress granules in the case of high heat shock 
+        - Stress granules = RNA + protein clusters in cytosol
+* Pab1 in yeast: a highly conserved RNA-binding protein found in stress granules 
+    + In response to thermal stress, Pab1 undergoes phase separation and forms a hydrogel
+    + Hydrophobic interactions in proline-rich domain (P domain) modulate phase boundary
+    + RNA-binding domains mediate phase separation 
+    + Pab's phase separation is a very thermosensitive process
+        - Pab1 can sense a 3% change in aboslute temperature 
+    + pH also affects Pab's phase separation
+        - pH drop occurs with heat shock 
+    + Pab1 most likely use thermal and intracellular pH information to sense size of thermal stress
+    + When Pab1's phase separation is inhibited, growth is inhibited --> phase separation is adapative 
+    + Potential function of Pab1's phase separation
+        - Translation regulation: 
+            - during stress-triggered phase separation, Pab1 releases heat-shock mRNAs 
+            - repress heat-shock mRNAs by binding to their A-rich 5' UTRs before/after stress 
+    + Pab1 needs molecular chaperones to disperse demixed molecules after environment returns to intial state
+* Nucleation and growth vs spinodal decomposition processes
+    + Phase separation can happen in 2 ways, and each have offer a different biological control mechanism 
+    + Nucleation and growth
+        - First, energetically unfavorable nucleation step occurs --> nuclei formed
+        - Second, spontaneous growth of the dense phase of nuclei
+        - Each step is regulated separately, and controlling where nuclei are formed affects location of     phase-separated structures 
+    + Spinodal decomposition 
+        - First, spontaneous nucleation --> nuclei appear throughout solution 
+        - Second, system spontaneously separates 
+        - Synchronized system-wide switch
+    + Pab1 is in the nucleation and growth regime (Riback 2017)
+        - Pab1 prefers to form assemblies from exisitng assembliies 
+
 ## **Superresolution Imaging of Condensates**
 
-### Jain S, Wheeler JR, Walters RW, Agrawal A, Barsic A, Parker R. ATPase-Modulated Stress Granules Contain a Diverse Proteome and Substructure. Cell. 2016;164(3):487-498. https://doi:10.1016/j.cell.2015.12.038
+### Jain S, Wheeler JR, Walters RW, Agrawal A, Barsic A, Parker R. ATPase-Modulated Stress Granules Contain a Diverse Proteome and Substructure. Cell. 2016;164(3):487-498. https://doi.org/10.1016/j.cell.2015.12.038
 * Anti-GFP-AF647 for STORM imaging of GFP-G3BP in stress granules
 * Induced stress granules with sodium azide and then lysed to get yeast cell lysate
+* Mammalian stress granules show regions of high G3BP, PABP!, or polyA RNA
+    + ~200 nm in diameter in stress granules
+    + This "core" is surrounded by lower concentrations of other components, "shell"
+        - "Shell" appears to be dynamic, while "core" is more stable 
 
-### Wang JT, Smith J, Chen BC, et al. Regulation of RNA granule dynamics by phosphorylation of serine-rich, intrinsically disordered proteins in C. elegans. Elife. 2014;3:e04591. Published 2014 Dec 23. https://doi:10.7554/eLife.04591
+### Wang JT, Smith J, Chen BC, et al. Regulation of RNA granule dynamics by phosphorylation of serine-rich, intrinsically disordered proteins in C. elegans. Elife. 2014;3:e04591. Published 2014 Dec 23. https://doi.org/10.7554/eLife.04591
 * Lattice sheet microsopy on GFP-MEG3 and mCherry-PGL3 in P granules in C elegans
 * MEG3 surrounds P granule
 * Images not super clear...
@@ -148,7 +194,7 @@ Include notes from Wallace et al. (2015), Kroschwald et al. (2015)
 ### Pab1 labeled with Alexa Fluor 488 or Alexa Fluor 647 carboxylic acid succinimidyl ester dyes for confocal microscopy as done here: https://doi.org/10.1101/2020.08.07.234443
 
 
-### Wheeler JR, Matheny T, Jain S, Abrisch R, Parker R. Distinct stages in stress granule assembly and disassembly. Elife. 2016;5:e18413. Published 2016 Sep 7. https://doi:10.7554/eLife.18413
+### Wheeler JR, Matheny T, Jain S, Abrisch R, Parker R. Distinct stages in stress granule assembly and disassembly. Elife. 2016;5:e18413. Published 2016 Sep 7. https://doi.org/10.7554/eLife.18413
 * Stress granule assembly disassembly in mammalian cells primarily, also yeast
 *	Focus is on interactions among IDR driving phase separation
 * Another SIM paper of GFP-G3BP1
@@ -160,3 +206,28 @@ Include notes from Wallace et al. (2015), Kroschwald et al. (2015)
 ### Wei-jie Zeng, Chuxin Lu, Yuanyuan Shi, Chunyan Wu, Xinxin Chen, Chunmei Li, Jie Yao, Initiation of stress granule assembly by rapid clustering of IGF2BP proteins upon osmotic shock, Biochimica et Biophysica Acta (BBA) - Molecular Cell Research, 2020, https://doi.org/10.1016/j.bbamcr.2020.118795.
 * Dual-color STORM of recruitment of IGF2BP1 and polyA mRNA to stress granule during osmotic stress 
 *	Fixed U2OS cells: mEos2-IGF2BP1 (first imaged), polyA mRNA detected via AF647-oligodT probe
+
+### Fei J, Jadaliha M, Harmon TS, et al. Quantitative analysis of multilayer organization of proteins and RNA in nuclear speckles at super resolution. J Cell Sci. 2017;130(24):4180-4192. https://doi.org/10.1242/jcs.206854
+*Example of what super res can tell us
+    + See distinct multilayer organization of proteins and RNAs in condensates
+        - Non-random organization of subset of nuclear speckle components
+            - Functionally sub-compartmentalized: transcription and splicing in speckle periphery, RNA maturation in inner part of domain
+        - Quantify distribution of protein and RNA components in speckle to model order of operations that lead to speckle functions
+* Findings
+    + 3D SIM of FISH and IF staining showed that protein SC35 localizes in core of nuclear speckles while essential spliceosome component U2 snRNA is peripherally distributed
+    + Knock down and observe changes in gene expression and speckle organization
+    + RNA accumulation in speckle preferentially localizes to specific layers within nuclear speckles 
+    + Can tune condensate components to alter morphology and organization of speckles 
+    
+### Niewidok B, Igaev M, Pereira da Graca A, Strassner A, Lenzen C, Richter CP, Piehler J, Kurre R, Brandt R. 2018. Single-molecule imaging reveals dynamic biphasic partition of RNA-binding proteins in stress granules. J Cell Biol 217: 1303–1318. https://doi.org/10.1083/jcb.201709007
+* System: stressed nueronal cells
+    + Fluorescence decay after photoactivation (FDAP) measurements and single moluecle localization microscopy
+        - Observe protein exchange between stress granules and protein diffusion/interactions within stress granules
+    + Imaging tells whether distribution of components within stress granules is responsible for sorting dynamics of stress granules 
+* G3BP1 is a constitutive stress granule protein; it is a RNA-binding protein Ras GTPase-activating protein Sh3-domain-binding protein 1
+    + Involved in regulating assembly and function of stress granules
+* IMP1 is another RNA binding protein that is found in stress granules 
+* G3BP1 and IMP1 were used as representative proteins of ribonucleoprotein granules 
+    + Photoactivatable GFP-tagged fusion proteins
+* Hotspots of G3BP1 and IMP1 in stress granules
+

@@ -1,0 +1,87 @@
+---
+title: "Methods of Studying Condensates"
+author: "j-shangguan"
+date: "2021-01-30"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+### Mitrea DM, Chandra B, Ferrolino MC, et al. Methods for Physical Characterization of Phase-Separated Bodies and Membrane-less Organelles. J Mol Biol. 2018;430(23):4773-4805. https://doi.org/10.1016/j.jmb.2018.07.006
+* In eukaryotic cells, macromolecules are spatially and temporally organized to carry out certain biochemical processes
+* Phase separated bodies are dynamic, interconnected molecular networks
+    + Homotypic interactions: between polymers of the same type 
+    + Heterotypic interactions: between polymers of different types
+* Light microscopy: visualizing macromolecular phase separation/membrane-less bodies in vitro and in cells
+    + Using contrast-based imaging methods like phase contrast or differential interference contrast(DIC) are used because it does not require fluorophores
+        - Takes advantage of differences in refractive index and thickness within sample, changing phase of diffracted light --> diffracted lights is converted into intensity differences --> dense region is dark vs. light background 
+        - Sample fixation may alter molecular dynamics of condensate and change epitope accessibility
+    + Using FRAP to study dynamics of fluorescently-labeled components inside phase separated bodies
+        - Illuminate specific area with high intensity laser to convert fluorophores to dark state
+        - Unbleached and photobleached molecules move in and out of area 
+        - Measure variation in fluorescence intensity over time (fluorescence recovery time)
+            - Molecules can diffuse at several ms, so need a fast microscope to detect molecules
+      + Super res
+          - STORM: XY of 10-20 nm resolution and axial resolutions of 10-75 nm, temporal resolution of s to min 
+
+### Alberti S, Gladfelter A, Mittag T. 2019. Considerations and challenges in studying liquid-liquid phase separation and biomolecular condensates. Cell 176: 419–434. https://doi.org/10.1016/j.cell.2018.12.035 
+* Condensates have links to molecular mechanisms of disease 
+    + e.g. impaired stress granules contribute to the progression of amyotrophic lateral sclerosis (ALS)
+* Liquid-liquid phase separation
+    + Proteins/nucleic acids condense into dense phase --> looks like liquid droplets
+    + Occurs when it is energetically favorable for macromolecule/water interactions to turn into macromolecule/macromolecule and water/water interactions 
+    + Factors of concentrations and identities of macromolecules and solution and environment (salt, temperature, pH, etc) affect if phase separation will occur
+    + LLPS can generate assemblies that are either liquids, solids or gels (different material properties)
+        - Liquid: long-range molecule disorder, short-range arrangement (first layer of molecules) is regular 
+    + Condensed phases usually reversible as triggered by an environmental change that causes dissolving 
+* Techniques
+    + In vitro reconstitution of cellular structure via LLPS with purified components 
+        - Spherical droplets would indicate assembly formation via LLPS
+    + Light microscopy
+        - Image solution for liquid droplets 
+        - Need to control for incubation time and imaging conditions 
+        - Concern: some RNAs and RNA-bindng proteins could be crosslinked by light
+    + Turbidity measurements 
+        - Assemblies scatter visible light --> detect light scattering by optical density measurements or direct static light scattering 
+        - Concern: does not provide information about the shape or size of assembly 
+    + Centrifugation 
+        - Light and dense phases will separate --> measure concentration of each spectroscopically 
+        - Concern: cannot tell if aggregation or fibrillization is occurring rather than LLPS
+* Just because a protein phase separates does not mean there is functional relevance
+    + Can introduce defects in LLPS and see if there are defects in protein function
+* Functions of LLPS
+    + Sensing
+        - Fast, adaptive and reversible responses to stress
+    + Locally concentrate molecules for signaling processes, accelerating reactions, or nucleating cytoskeleton
+    + Sequester molecules to inactivate or prevent reaction
+    + Sort molecules to other sites/organelles/condensates
+
+### Feng Z, Chen X, Wu X, Zhang M. Formation of biological condensates via phase separation: Characteristics, analytical methods, and physiological implications. J Biol Chem. 2019;294(40):14823-14835. https://doi.org/10.1074/jbc.REV119.007895
+* Phase separation: 2 solutions separate into 2 states
+* Multivalency drives LLPS: molecules assemble via inter and intramolecular interactions that have a lowered solubility limit --> demix with surrounding solution
+    + Protein has multiple binding sites that promote phase separation
+    + Intrinsic disordered sequences promote phase transition
+*FRAP is used to look at molecules within liquid droplets
+    + Tracking inside condensed phase 
+    + Tracking exchange between condensed and diluted phases 
+    
+### Van Treeck and Parker, 2019 B. Van Treeck, R. Parker Principles of stress granules revealed by imaging approaches. Cold Spring Harb. Perspect. Biol., 11 (2019), p. a033068. [link](https://cshperspectives.cshlp.org/content/11/2/a033068.full.pdf)
+* Ribonucleoprotein (RNP) granules = assemblies made of RNAs and proteins 
+* Stress granules are a type of cytoplasmic RNP granules
+    + Form during stress response (e.g. heat shock, oxidative stress, nutrient starvation/glucose deprivation)
+        - Stress inhibits bulk translation initiation --> most mRNAs released from ribosomes
+            - Some nontranslating mRNAs go into stress granules
+        - Stress granule formation improves cell viability during stress
+* Disease implications of stress granules
+    + Stress granule formation can enhance immune response to dsRNA viral infections
+    + Stress granule formation/disassembly mutations can progress degenerative diseases like amyotrophic lateral scleorosis 
+* Methods to identify proteins in stress granules
+    + Immunofluorescence/tagging with fluor. protein
+    + Purify stress granules, then mass spec
+    + APEX proximity labeling (proximity-based proteomics)
+* Methods to identify RNAs in stress granules
+    + FISH
+    + Purify stress granules, then RNA-seq
+    + Pellet stress granuels, then RNA-seq
+* Imaging approaches show that the internal ultrastructure of stress granules
+    + Stress granule cores (G3BP1, Pab1, mRNAs) surrounded by regions of low density (Jain et al. 2016)
+    + G3BP1 and IMP1 have restrained movement in ~150-200 nm regions of stress granules (Niewidok et al. 2018)

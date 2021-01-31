@@ -8,11 +8,18 @@ editor_options:
   chunk_output_type: console
 ---
 
-### Welcome to my winter quarter rotation documentation website.
+## Welcome to my winter quarter rotation documentation website.
+
+### Get up to speed on the biological context of my project
 
 **Here are general misc. notes and information relevant to this project:** [background info](notes.html)
+* Methods for studying condensates: [studying_condensates.html]
 
 **Here are helpful articles and notes to get background info:** [literature review](literature.html)
+* Specifically about Nug1: [Nug1 info](nug1.html)
+
+
+### Take a peek at my project progress
 
 **Here are my experimental plans**: [plans](nextsteps.html)
 
@@ -20,7 +27,7 @@ editor_options:
 
 **Data:** (set up webpage)
 
-**Goals of my rotation project:**
+### Goals of my rotation project:
 
 * Understanding formation and function of biomolecular condensates
 * Investigating and visualizing protein organization within heat shock-induced condensates

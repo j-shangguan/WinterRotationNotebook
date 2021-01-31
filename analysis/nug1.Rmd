@@ -1,0 +1,47 @@
+---
+title: "About Nug1"
+author: "j-shangguan"
+date: "2021-01-30"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+## **Nug1 Literature**
+
+### Bassler J, Grandi P, Gadal O, Lessmann T, Petfalski E, Tollervey D, Lechner J, Hurt E. Identification of a 60S preribosomal particle that is closely linked to nuclear export. Mol Cell. 2001 Sep;8(3):517-29.  https://doi.org/10.1016/S1097-2765(01)00342-2. PMID: 11583615.
+* Nug1 = nuclear GTPase
+* preribosomal particles = ~80 ribosomal proteins + many nonribosomal proteins that aseemble onto pre-rRNAs
+    + Dynamic structures
+* Nug1 found in genetic screen for proteins involved in 60S ribosomal subunit export
+    + Cosedimented with nuclear 60S preribosomes
+    + Coprecipitated with proteins of 60S subunit and nonribosomal proteins that are involved in 60S subunuit export
+
+### J. Bassler, M. Kallas, E. Hurt. The NUG1 GTPase reveals and N-terminal RNA-binding domain that is essential for association with 60 S pre-ribosomal particles. J. Biol. Chem., 281 (2006), pp. 24737-24744. https://doi.org/10.1074/jbc.M604261200 
+* Nug1 = yeast GTPase 
+* Nug1 associates with pre-60 S subunits (eukaryotic large ribosomal subunit) via N-terminal domain 
+    + pre-rRNAs undergo modifications, co-transcriptional folding, pre-rRNA processing, and assembly with other proteins to make a functional ribosomal subunits
+* Nug1 C domain also important for ribosome biogenesis
+* N-term binds RNA 
+* Middle domain is not necessary for growth 
+* Takeaway: N-term of Nug1 regulates pre-60 S subunit biogenesis
+    + N-term targets Nug1 to nucleus, where it associates with pre-60 S particles
+    + Nug1 has GTPase activity (tested for in vitro GTP hydrolysis activity via incubation with radiolabeled GTP)
+    + Imaging shows that N-term basic sequences targets EGFP reporter to nucleus
+    + Nug1-N co-precipitates with pre-60 S subunits 
+    * Nug1 directly binds RNA (tested for via incubated with 5 S rRNA and tRNA)
+        - Thus, Nug1 probably binds to rRNA of pre-60 S subunit
+        
+### Manikas RG, Thomson E, Thoms M, Hurt E. The K⁺-dependent GTPase Nug1 is implicated in the association of the helicase Dbp10 to the immature peptidyl transferase centre during ribosome maturation. Nucleic Acids Res. 2016;44(4):1800-1812. https://doi.org/10.1093/nar/gkw045
+* Nug1 is cation-dependent GTPase: potassium ion stimulates its GTPase activity
+* N-terminal domain of Nug1
+    + Rich in positively charged amino acids
+    + Essential for nucleolar targeting
+    + Helps association with pre-60S particles
+    + Binds rRNA 
+* Nug1 that is nucleotide-binding impaired (mutations in GTPase domain) leads to 60S biogenesis defects
+    + RNA helicase Dbp10 decreases
+        - Nug1 helps Dbp10 helicase stably associate with pre-ribosome
+            - Nug1 and Dbp10 work together to form peptidyl-transferase center in the mature ribosome 
+            
+            
+

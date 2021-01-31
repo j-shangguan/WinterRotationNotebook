@@ -14,7 +14,7 @@ editor_options:
  
 ### First round of experiments
 * See Pab1 on aligned microscope set-up 
-  + Add 15 mM of Pab1 (buffered in 20mM sodium acetate, 150mM KC) on a slide, then image 
+  + Add 15 uM of Pab1 (buffered in 20mM sodium acetate, 150mM KC) on a slide, then image 
       - Do this for Pab1-Clover and Pab1-mRuby2 to compare results
   + Goal: see something fluorescent
 
@@ -46,7 +46,7 @@ editor_options:
 (when applicable) using an Eppendorf ThermoMixer F1.5 heat block, deposited on a slide and immediately imaged. For imaging experiments performed between pH 5.7 and pH 6.4, purified protein samples were buffered in 20mM HEPES, 150mM KCl. For imaging experiments performed between pH 5.0 and 5.6, purified protein samples were buffered in 20mM sodium acetate, 150mM KCl."
 
 * Mixing experiment
-    + "15 mM 1:20 Clover:unlabeled Pab1 was assembled, on-slide, via a 10x dilution with buffer containing 50 mM sodium acetate and 150 mM KCl. After 5 min, 15 mM 1:20 mRuby2:unlabeled Pab1was added to the sample slide, then imaged using an Olympus DSU spinning-disk confocal microscope, with 100x oil immersion objective and FITC/Cy2 and DsRed filter sets for Clover and mRuby2, respectively."
+    + "15 uM 1:20 Clover:unlabeled Pab1 was assembled, on-slide, via a 10x dilution with buffer containing 50 mM sodium acetate and 150 mM KCl. After 5 min, 15 mM 1:20 mRuby2:unlabeled Pab1was added to the sample slide, then imaged using an Olympus DSU spinning-disk confocal microscope, with 100x oil immersion objective and FITC/Cy2 and DsRed filter sets for Clover and mRuby2, respectively."
 
 
 

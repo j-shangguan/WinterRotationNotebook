@@ -57,4 +57,45 @@ editor_options:
     + bandpass
     + excitation
 
+### Jan 22
+?
+
+### 1.24.21
+* Imaged sharpie sample
+* Worked on beam intensity calculation
+* Worked on gain conversion calculation
+* Made fraction of emitted fluorescence spectrum 
+
+## Week 3: Data Analysis, Rotation Project Material Prep
+
+### 1.25.21
+* Took videos with different white light intensities (for gain calculation)
+* Worked on beam intensity calculation
+* Worked on ppt outline
+
+### 1.26. 21 
+* Finished beam intensity calculation 
+* Worked on ppt outline
+
+### 1.27.21
+* Trained on new Nanodrop 
+* Worked on gain conversion calculation
+
+### 1.28.21
+* Worked on ppt outline
+
+### 1.29.21
+* Made aggregation buffer
+* Imaged blinking sample at 10x-3 from 10 nM dilution Cy3-DNA on PVA coated coverslip
+* Allison realigned laser path  
+* Worked on particle fitting code 
+* Worked on ppt outline
+
+### 1.30.21
+* Formed 1:20 Pab1-mRuby2 in unlabeled Pab1 solution (total ~25 uM condensates)
+* Worked on ppt outline
+
+### 1.31.21
+* Worked on ppt outline
+
 
