@@ -11,9 +11,9 @@
 
 <meta name="author" content="j-shangguan" />
 
-<meta name="date" content="2021-01-21" />
+<meta name="date" content="2021-01-30" />
 
-<title>Initial experimental plans</title>
+<title>About Nug1</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -386,9 +386,9 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Initial experimental plans</h1>
+<h1 class="title toc-ignore">About Nug1</h1>
 <h4 class="author">j-shangguan</h4>
-<h4 class="date">2021-01-21</h4>
+<h4 class="date">2021-01-30</h4>
 
 </div>
 
@@ -482,7 +482,7 @@ Note that any generated files, e.g. HTML, png, CSS, etc., are not included in t
 <div id="versions" class="tab-pane fade">
 
 <p>
-These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/nextsteps.Rmd</code>) and HTML (<code>docs/nextsteps.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/nug1.Rmd</code>) and HTML (<code>docs/nug1.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
 </p>
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
@@ -511,7 +511,7 @@ Message
 Rmd
 </td>
 <td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/9c39a8cb90890099dd9d96d7d0162cc2353a0218/analysis/nextsteps.Rmd" target="_blank">9c39a8c</a>
+<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/9c39a8cb90890099dd9d96d7d0162cc2353a0218/analysis/nug1.Rmd" target="_blank">9c39a8c</a>
 </td>
 <td>
 j-shangguan
@@ -523,40 +523,6 @@ j-shangguan
 added new pages, revised old ones
 </td>
 </tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/5775459a71bfeb79a4191c3a0ef3024ca7526946/docs/nextsteps.html" target="_blank">5775459</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-21
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/ab356ebed780c8df74ad3417af9f252ad15972dd/analysis/nextsteps.Rmd" target="_blank">ab356eb</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-21
-</td>
-<td>
-added activity log and experimental plans pages
-</td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -564,71 +530,70 @@ added activity log and experimental plans pages
 </div>
 </div>
 </div>
-<div id="updates" class="section level3">
-<h3>Updates</h3>
+<div id="nug1-literature" class="section level2">
+<h2><strong>Nug1 Literature</strong></h2>
+<div id="bassler-j-grandi-p-gadal-o-lessmann-t-petfalski-e-tollervey-d-lechner-j-hurt-e.-identification-of-a-60s-preribosomal-particle-that-is-closely-linked-to-nuclear-export.-mol-cell.-2001-sep83517-29.-httpsdoi.org10.1016s1097-27650100342-2.-pmid-11583615." class="section level3">
+<h3>Bassler J, Grandi P, Gadal O, Lessmann T, Petfalski E, Tollervey D, Lechner J, Hurt E. Identification of a 60S preribosomal particle that is closely linked to nuclear export. Mol Cell. 2001 Sep;8(3):517-29. <a href="https://doi.org/10.1016/S1097-2765(01)00342-2" class="uri">https://doi.org/10.1016/S1097-2765(01)00342-2</a>. PMID: 11583615.</h3>
 <ul>
-<li>Labeled and unlabeled Pab1 is available:
+<li>Nug1 = nuclear GTPase</li>
+<li>preribosomal particles = ~80 ribosomal proteins + many nonribosomal proteins that aseemble onto pre-rRNAs
 <ul>
-<li>Haneul will provide me with untagged Pab1, Pab1-Clover, Pab1-mRuby2</li>
+<li>Dynamic structures</li>
 </ul></li>
-<li>I will shadow Sammy for Nug1 purification (2 day training; early February)</li>
-</ul>
-</div>
-<div id="first-round-of-experiments" class="section level3">
-<h3>First round of experiments</h3>
+<li>Nug1 found in genetic screen for proteins involved in 60S ribosomal subunit export
 <ul>
-<li>See Pab1 on aligned microscope set-up
-<ul>
-<li>Add 15 uM of Pab1 (buffered in 20mM sodium acetate, 150mM KC) on a slide, then image
-<ul>
-<li>Do this for Pab1-Clover and Pab1-mRuby2 to compare results</li>
-</ul></li>
-<li>Goal: see something fluorescent</li>
-</ul></li>
-<li>See a single Pab1 condensate
-<ol style="list-style-type: decimal">
-<li>Choose either Pab1-Clover or -mRuby2,</li>
-<li>1:20 labeled Pab1 in unlabeled Pab1 solution</li>
-<li>Incubate at 30 deg. C or 46 deg. C for 8 min, then image</li>
-</ol>
-<ul>
-<li>Goal: 1) practice making heat shock-induced condensates; 2) see spherical droplet</li>
-</ul></li>
-<li>Make 2 layer Pab1 droplets
-<ol style="list-style-type: decimal">
-<li>Clover-Pab1 in unlabeled Pab1 (1:20)</li>
-<li>Incubate at 30 deg. C or 46 deg. C for 8 min</li>
-<li>Add Pab1-mRuby2 in unlabeled Pab1 (1:20)</li>
-<li>Image</li>
-</ol>
-<ul>
-<li>Goal: 1) practice making multi-layer droplets; 2) see two unmixed condensates</li>
+<li>Cosedimented with nuclear 60S preribosomes</li>
+<li>Coprecipitated with proteins of 60S subunit and nonribosomal proteins that are involved in 60S subunuit export</li>
 </ul></li>
 </ul>
 </div>
-<div id="once-reagents-arrive" class="section level3">
-<h3>Once reagents arrive</h3>
+<div id="j.-bassler-m.-kallas-e.-hurt.-the-nug1-gtpase-reveals-and-n-terminal-rna-binding-domain-that-is-essential-for-association-with-60-s-pre-ribosomal-particles.-j.-biol.-chem.-281-2006-pp.-24737-24744.-httpsdoi.org10.1074jbc.m604261200" class="section level3">
+<h3>J. Bassler, M. Kallas, E. Hurt. The NUG1 GTPase reveals and N-terminal RNA-binding domain that is essential for association with 60 S pre-ribosomal particles. J. Biol. Chem., 281 (2006), pp. 24737-24744. <a href="https://doi.org/10.1074/jbc.M604261200" class="uri">https://doi.org/10.1074/jbc.M604261200</a></h3>
 <ul>
-<li>Test Pab1-mRuby2 or -Clover single condensate in STORM buffer conditions, then image
+<li>Nug1 = yeast GTPase</li>
+<li>Nug1 associates with pre-60 S subunits (eukaryotic large ribosomal subunit) via N-terminal domain
 <ul>
-<li>Goal: see if STORM imaging buffer changes condensate morphology</li>
+<li>pre-rRNAs undergo modifications, co-transcriptional folding, pre-rRNA processing, and assembly with other proteins to make a functional ribosomal subunits</li>
 </ul></li>
-<li>Label Pab1 with AF647 via ester-amine reaction</li>
+<li>Nug1 C domain also important for ribosome biogenesis</li>
+<li>N-term binds RNA</li>
+<li>Middle domain is not necessary for growth</li>
+<li>Takeaway: N-term of Nug1 regulates pre-60 S subunit biogenesis
+<ul>
+<li>N-term targets Nug1 to nucleus, where it associates with pre-60 S particles</li>
+<li>Nug1 has GTPase activity (tested for in vitro GTP hydrolysis activity via incubation with radiolabeled GTP)</li>
+<li>Imaging shows that N-term basic sequences targets EGFP reporter to nucleus</li>
+<li>Nug1-N co-precipitates with pre-60 S subunits</li>
+<li>Nug1 directly binds RNA (tested for via incubated with 5 S rRNA and tRNA)
+<ul>
+<li>Thus, Nug1 probably binds to rRNA of pre-60 S subunit</li>
+</ul></li>
+</ul></li>
 </ul>
-<hr />
 </div>
-<div id="procedures-from-2015-paper" class="section level3">
-<h3>Procedures from 2015 paper</h3>
+<div id="manikas-rg-thomson-e-thoms-m-hurt-e.-the-k-dependent-gtpase-nug1-is-implicated-in-the-association-of-the-helicase-dbp10-to-the-immature-peptidyl-transferase-centre-during-ribosome-maturation.-nucleic-acids-res.-20164441800-1812.-httpsdoi.org10.1093nargkw045" class="section level3">
+<h3>Manikas RG, Thomson E, Thoms M, Hurt E. The K⁺-dependent GTPase Nug1 is implicated in the association of the helicase Dbp10 to the immature peptidyl transferase centre during ribosome maturation. Nucleic Acids Res. 2016;44(4):1800-1812. <a href="https://doi.org/10.1093/nar/gkw045" class="uri">https://doi.org/10.1093/nar/gkw045</a></h3>
 <ul>
-<li>Protein assembly
+<li>Nug1 is cation-dependent GTPase: potassium ion stimulates its GTPase activity</li>
+<li>N-terminal domain of Nug1
 <ul>
-<li>“For in vitro studies, purified recombinant protein was subjected to brief heat shock (when applicable) using an Eppendorf ThermoMixer F1.5 heat block, deposited on a slide and immediately imaged. For imaging experiments performed between pH 5.7 and pH 6.4, purified protein samples were buffered in 20mM HEPES, 150mM KCl. For imaging experiments performed between pH 5.0 and 5.6, purified protein samples were buffered in 20mM sodium acetate, 150mM KCl.”</li>
+<li>Rich in positively charged amino acids</li>
+<li>Essential for nucleolar targeting</li>
+<li>Helps association with pre-60S particles</li>
+<li>Binds rRNA</li>
 </ul></li>
-<li>Mixing experiment
+<li>Nug1 that is nucleotide-binding impaired (mutations in GTPase domain) leads to 60S biogenesis defects
 <ul>
-<li>“15 uM 1:20 Clover:unlabeled Pab1 was assembled, on-slide, via a 10x dilution with buffer containing 50 mM sodium acetate and 150 mM KCl. After 5 min, 15 mM 1:20 mRuby2:unlabeled Pab1was added to the sample slide, then imaged using an Olympus DSU spinning-disk confocal microscope, with 100x oil immersion objective and FITC/Cy2 and DsRed filter sets for Clover and mRuby2, respectively.”</li>
+<li>RNA helicase Dbp10 decreases
+<ul>
+<li>Nug1 helps Dbp10 helicase stably associate with pre-ribosome
+<ul>
+<li>Nug1 and Dbp10 work together to form peptidyl-transferase center in the mature ribosome</li>
+</ul></li>
+</ul></li>
 </ul></li>
 </ul>
+</div>
 </div>
 
 
