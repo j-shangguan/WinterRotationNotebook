@@ -9,9 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="j-shangguan" />
 
+<meta name="date" content="2021-02-04" />
 
-<title>Home</title>
+<title>Results #1: Making condensates (Pab1, Apa1)</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +21,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -258,6 +263,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -265,6 +333,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -308,7 +386,9 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Home</h1>
+<h1 class="title toc-ignore">Results #1: Making condensates (Pab1, Apa1)</h1>
+<h4 class="author">j-shangguan</h4>
+<h4 class="date">2021-02-04</h4>
 
 </div>
 
@@ -400,7 +480,7 @@ Note that any generated files, e.g. HTML, png, CSS, etc., are not included in t
 <div id="versions" class="tab-pane fade">
 
 <p>
-These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/index.Rmd</code>) and HTML (<code>docs/index.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/data1.Rmd</code>) and HTML (<code>docs/data1.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
 </p>
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
@@ -429,7 +509,7 @@ Message
 Rmd
 </td>
 <td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/307d4fcfbcdb6b6dc1e12e1878210467d64a2bd2/analysis/index.Rmd" target="_blank">307d4fc</a>
+<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/307d4fcfbcdb6b6dc1e12e1878210467d64a2bd2/analysis/data1.Rmd" target="_blank">307d4fc</a>
 </td>
 <td>
 j-shangguan
@@ -441,261 +521,6 @@ j-shangguan
 new links
 </td>
 </tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/8c945b73305e2a3cde7d05f96b8c4a7fedc89d89/docs/index.html" target="_blank">8c945b7</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-31
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/bcc3dc18deb25bbf5ea897de6180be167d83f0cf/docs/index.html" target="_blank">bcc3dc1</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-31
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/a6d45c4077a22b58e58fabea430bff67cc671f6d/analysis/index.Rmd" target="_blank">a6d45c4</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-31
-</td>
-<td>
-updated index
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/e72301986c4f7d45d12d23bc3d0242914cc06170/docs/index.html" target="_blank">e723019</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-31
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/9c39a8cb90890099dd9d96d7d0162cc2353a0218/analysis/index.Rmd" target="_blank">9c39a8c</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-31
-</td>
-<td>
-added new pages, revised old ones
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/5775459a71bfeb79a4191c3a0ef3024ca7526946/docs/index.html" target="_blank">5775459</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-21
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/ab356ebed780c8df74ad3417af9f252ad15972dd/analysis/index.Rmd" target="_blank">ab356eb</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-21
-</td>
-<td>
-added activity log and experimental plans pages
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/f3c54ac2b475f39e99ebc0ae53171420c09b9e63/docs/index.html" target="_blank">f3c54ac</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-15
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/b7f94cd518a3c5c8c4ecafafd8abbb2c94f13b4b/analysis/index.Rmd" target="_blank">b7f94cd</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-15
-</td>
-<td>
-added new background notes and lit review
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/3047595829bbc2bcd98341ec5aac58da7c1bd0c6/docs/index.html" target="_blank">3047595</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-14
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/755a23167f9a8c9dfd12a7ceb7faa722524f0a52/docs/index.html" target="_blank">755a231</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-14
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/a4e8eded771faea35703ea6012a70e9d1435d809/analysis/index.Rmd" target="_blank">a4e8ede</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-14
-</td>
-<td>
-wflow_publish("analysis/*Rmd")
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/46743766748f769dc1be942bebda6d13ee863c11/docs/index.html" target="_blank">4674376</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-14
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/91e0ff960810f849fe292a1a9e25d5c279d98af8/analysis/index.Rmd" target="_blank">91e0ff9</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-14
-</td>
-<td>
-wflow_publish("analysis/*Rmd")
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/45c3ed8bce7b17a8793b2740788d10fa4f2f7261/analysis/index.Rmd" target="_blank">45c3ed8</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-14
-</td>
-<td>
-Start workflowr project.
-</td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -703,26 +528,107 @@ Start workflowr project.
 </div>
 </div>
 </div>
-<div id="welcome-to-my-winter-quarter-rotation-documentation-website." class="section level2">
-<h2>Welcome to my winter quarter rotation documentation website.</h2>
-<div id="get-up-to-speed-on-the-biological-context-of-my-project" class="section level3">
-<h3>Get up to speed on the biological context of my project</h3>
-<p><strong>Here are general misc. notes and information relevant to this project:</strong> <a href="notes.html">background info</a></p>
 <ul>
-<li><a href="studying_condensates.html">Methods for studying condensates</a></li>
+<li>Purified Pab1 provided by Haneul</li>
+<li>Purified Apa1 provided by Caitlin</li>
 </ul>
-<p><strong>Here are helpful articles and notes to get background info:</strong> <a href="literature.html">literature review</a></p>
+<div id="made-pab1-mruby2-heat-shock-condensates-500-ul-rxn" class="section level2">
+<h2>Made Pab1-mRuby2 heat shock condensates (500 ul rxn)</h2>
+<ol style="list-style-type: decimal">
+<li>55 uM Pab1-mRuby2 stock solution: (55 uM)(x) = 25(500) –&gt; 227.27 ul</li>
+<li>Want 1:20 Pab1-mRuby2 in unlabeled Pab1 for 25 uM total –&gt; 227.27/21= 10.8 ul</li>
+<li>158 unlabeled Pab1 stock: (158 uM)(x) = 25(500) –&gt; 79.11*(20/21)= 75.3 ul</li>
+<li>10.82 ul Ruby + 75.3 ul unlabeled + 564.5 ul aggregation buffer&amp;DTT</li>
+<li>Mixed, then 20 min. at 42 deg. C</li>
+<li>Spun down at 20 deg. C for 3 min at 8000 g</li>
+<li>Imaged 1:4 heat shocked supernatant:aggregation buffer</li>
+</ol>
 <ul>
-<li><a href="nug1.html">Specifically about Nug1</a></li>
+<li>Pipetted 50 ul of this into FCS chamber to image</li>
 </ul>
 </div>
-<div id="take-a-peek-at-my-project-progress" class="section level3">
-<h3>Take a peek at my project progress</h3>
-<p><strong>Here are my experimental plans</strong>: * <a href="nextsteps.html">Plan #1</a></p>
-<p><strong>This is what I’m up to:</strong> <a href="dailylog.html">activity log</a></p>
-<p><strong>Methods/Data/Results:</strong> * <a href="data1.html">#1: Making heat shock condensates (Pab1, Apa1)</a></p>
-<p><a href="protocols.html"><strong>These are the protocols I am using</strong></a></p>
+<div id="made-apa1-ruby-heat-shock-condensates-100-ul-rxn" class="section level2">
+<h2>Made Apa1-Ruby heat shock condensates (100 ul rxn)</h2>
+<ul>
+<li>2 uM of Apa1 was used to mimic physiological concentrations in cell</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>187 uM Apa1-Ruby stock solution: (2 uM)(100) = (187)(x) –&gt; 1 ul Apa1 + 99 ul aggregation buffer&amp;DTT</li>
+<li>Mixed, pipetted 50 ul into another tube and 20 min. at 42 deg. C</li>
+<li>Other 50 ul of rxn kept on ice –&gt; non-heat shock control</li>
+<li>Pipetted 50 ul of heat shock solution or control solution into FCS chamber to image</li>
+</ol>
 </div>
+<div id="notes" class="section level2">
+<h2><strong>Notes</strong></h2>
+<div id="pab1" class="section level3">
+<h3>Pab1</h3>
+<ul>
+<li>There was a big pellet after spinning down Pab1 heat shock solution
+<ul>
+<li>Haneul advises: fluorescently tagged condensates might have slightly different demixing temperature compared to untagged Pab1</li>
+</ul></li>
+<li>Small condensates seen on widefield</li>
+<li>No signal seen when buffer alone was imaged</li>
+</ul>
+</div>
+<div id="apa1" class="section level3">
+<h3>Apa1</h3>
+<ul>
+<li>Very low condensate density in Apa1 heat shock solution</li>
+<li>Saw 2 fluorescent spots in my non heat-shock control that were about ~ 1 um; I am assuming most of the Apa1 was in monomer form and diffused fast enough that its signal was not picked up, which is hopefully the case if it was not heat-shocked</li>
+<li>No signal seen when buffer alone was imaged</li>
+<li>Haneul and Caitlin advise:
+<ul>
+<li>Potentially the proteins are floating to the edges of my imaging chamber</li>
+<li>Can try heat shock at 46 deg. C for 20 min to make more/bigger condensates</li>
+<li>For TSP, Caitlin raised temperature a little higher or lowered pH a little to fully move Apa1 to the pellet</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="data-roughly-measured-size-of-some-sampled-condensates" class="section level2">
+<h2>Data: Roughly measured size of some sampled condensates</h2>
+<div id="heat-shocked-pab1" class="section level3">
+<h3>Heat shocked Pab1</h3>
+<ul>
+<li>802 x 1650 nm</li>
+<li>919.5 x 919.5 nm</li>
+<li>748.4 x 786.9 nm</li>
+<li>874.7 x 678.8 nm</li>
+<li>321.8 x 553.6 nm</li>
+<li>892.6 x 689.6 nm</li>
+<li>726.9 x 906.7 nm</li>
+</ul>
+</div>
+<div id="heat-shocked-apa1" class="section level3">
+<h3>Heat shocked Apa1</h3>
+<ul>
+<li>2392.7 x 1471.2 nm</li>
+<li>5152.5 x 2574.6 nm</li>
+<li>1647.7 x 2116.4 nm</li>
+<li>1848.2 x 1217.3 nm</li>
+</ul>
+</div>
+</div>
+<div id="apa1-on-ice" class="section level2">
+<h2>Apa1 on ice</h2>
+<ul>
+<li>494.2 x 505.49 nm</li>
+<li>1244.73 x 969.8 nm</li>
+</ul>
+</div>
+<div id="heat-shocked-apa1-from-haneul-and-caitlins-images" class="section level2">
+<h2>Heat shocked Apa1 from Haneul and Caitlin’s images</h2>
+<ul>
+<li>1.5 x 1.7 um</li>
+<li>0.98 x 1.7 um</li>
+<li>1.25 x 1.03 um</li>
+<li>2.28 x 1.84 um</li>
+<li>1.45 x 0.9 um</li>
+<li>1.4 x 1.8 um</li>
+<li>1.7 x 1 um</li>
+</ul>
 </div>
 
 
@@ -739,6 +645,8 @@ footer is added to webpages before the MathJax javascript. -->
 </script>
 
 
+</div>
+</div>
 
 </div>
 
@@ -771,6 +679,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -9,9 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="j-shangguan" />
 
+<meta name="date" content="2021-02-04" />
 
-<title>Home</title>
+<title>Protocols</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +21,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -258,6 +263,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -265,6 +333,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -308,7 +386,9 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Home</h1>
+<h1 class="title toc-ignore">Protocols</h1>
+<h4 class="author">j-shangguan</h4>
+<h4 class="date">2021-02-04</h4>
 
 </div>
 
@@ -400,7 +480,7 @@ Note that any generated files, e.g. HTML, png, CSS, etc., are not included in t
 <div id="versions" class="tab-pane fade">
 
 <p>
-These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/index.Rmd</code>) and HTML (<code>docs/index.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/protocols.Rmd</code>) and HTML (<code>docs/protocols.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
 </p>
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
@@ -429,7 +509,7 @@ Message
 Rmd
 </td>
 <td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/307d4fcfbcdb6b6dc1e12e1878210467d64a2bd2/analysis/index.Rmd" target="_blank">307d4fc</a>
+<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/307d4fcfbcdb6b6dc1e12e1878210467d64a2bd2/analysis/protocols.Rmd" target="_blank">307d4fc</a>
 </td>
 <td>
 j-shangguan
@@ -441,261 +521,6 @@ j-shangguan
 new links
 </td>
 </tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/8c945b73305e2a3cde7d05f96b8c4a7fedc89d89/docs/index.html" target="_blank">8c945b7</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-31
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/bcc3dc18deb25bbf5ea897de6180be167d83f0cf/docs/index.html" target="_blank">bcc3dc1</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-31
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/a6d45c4077a22b58e58fabea430bff67cc671f6d/analysis/index.Rmd" target="_blank">a6d45c4</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-31
-</td>
-<td>
-updated index
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/e72301986c4f7d45d12d23bc3d0242914cc06170/docs/index.html" target="_blank">e723019</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-31
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/9c39a8cb90890099dd9d96d7d0162cc2353a0218/analysis/index.Rmd" target="_blank">9c39a8c</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-31
-</td>
-<td>
-added new pages, revised old ones
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/5775459a71bfeb79a4191c3a0ef3024ca7526946/docs/index.html" target="_blank">5775459</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-21
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/ab356ebed780c8df74ad3417af9f252ad15972dd/analysis/index.Rmd" target="_blank">ab356eb</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-21
-</td>
-<td>
-added activity log and experimental plans pages
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/f3c54ac2b475f39e99ebc0ae53171420c09b9e63/docs/index.html" target="_blank">f3c54ac</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-15
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/b7f94cd518a3c5c8c4ecafafd8abbb2c94f13b4b/analysis/index.Rmd" target="_blank">b7f94cd</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-15
-</td>
-<td>
-added new background notes and lit review
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/3047595829bbc2bcd98341ec5aac58da7c1bd0c6/docs/index.html" target="_blank">3047595</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-14
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/755a23167f9a8c9dfd12a7ceb7faa722524f0a52/docs/index.html" target="_blank">755a231</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-14
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/a4e8eded771faea35703ea6012a70e9d1435d809/analysis/index.Rmd" target="_blank">a4e8ede</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-14
-</td>
-<td>
-wflow_publish("analysis/*Rmd")
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/j-shangguan/WinterRotationNotebook/46743766748f769dc1be942bebda6d13ee863c11/docs/index.html" target="_blank">4674376</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-14
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/91e0ff960810f849fe292a1a9e25d5c279d98af8/analysis/index.Rmd" target="_blank">91e0ff9</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-14
-</td>
-<td>
-wflow_publish("analysis/*Rmd")
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/j-shangguan/WinterRotationNotebook/blob/45c3ed8bce7b17a8793b2740788d10fa4f2f7261/analysis/index.Rmd" target="_blank">45c3ed8</a>
-</td>
-<td>
-j-shangguan
-</td>
-<td>
-2021-01-14
-</td>
-<td>
-Start workflowr project.
-</td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -703,26 +528,50 @@ Start workflowr project.
 </div>
 </div>
 </div>
-<div id="welcome-to-my-winter-quarter-rotation-documentation-website." class="section level2">
-<h2>Welcome to my winter quarter rotation documentation website.</h2>
-<div id="get-up-to-speed-on-the-biological-context-of-my-project" class="section level3">
-<h3>Get up to speed on the biological context of my project</h3>
-<p><strong>Here are general misc. notes and information relevant to this project:</strong> <a href="notes.html">background info</a></p>
-<ul>
-<li><a href="studying_condensates.html">Methods for studying condensates</a></li>
-</ul>
-<p><strong>Here are helpful articles and notes to get background info:</strong> <a href="literature.html">literature review</a></p>
-<ul>
-<li><a href="nug1.html">Specifically about Nug1</a></li>
-</ul>
+<div id="spin-coating-coverslips" class="section level2">
+<h2>Spin coating coverslips</h2>
+<ol style="list-style-type: decimal">
+<li>Plug in vacuum, flip switch</li>
+<li>Place coverslip on metal plate</li>
+<li>20 ul sample + 80 ul PVA</li>
+<li>Pipette 70 ul of solution from step 3 ontol middle of coverslip</li>
+<li>Press start, wait 20 sec</li>
+<li>Label with sharpie</li>
+</ol>
 </div>
-<div id="take-a-peek-at-my-project-progress" class="section level3">
-<h3>Take a peek at my project progress</h3>
-<p><strong>Here are my experimental plans</strong>: * <a href="nextsteps.html">Plan #1</a></p>
-<p><strong>This is what I’m up to:</strong> <a href="dailylog.html">activity log</a></p>
-<p><strong>Methods/Data/Results:</strong> * <a href="data1.html">#1: Making heat shock condensates (Pab1, Apa1)</a></p>
-<p><a href="protocols.html"><strong>These are the protocols I am using</strong></a></p>
-</div>
+<div id="purifying-pab1-aggregates" class="section level2">
+<h2>Purifying Pab1 aggregates</h2>
+<ul>
+<li>Protocol provided by Haneul Yoo (Last modified 12.21.20 by Haneul Yoo)</li>
+<li>This is the protocol for isolating “small” Pab1 aggregates</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>Make 500 μL reaction containing 25 μM Pab1 (+/- 0.25 μM Firefly luciferase) using the aggregation buffer.</li>
+<li>Incubate in 42 ̊C water bath for 20 min. The reaction should stay clear after this heat treatment.</li>
+<li>Spin the reaction at 8,000 g for 3 min to spin out any big aggregates. I usually see no or very little pellet.</li>
+<li>Take the supernatant and load it onto a pre-equilibrated Sup6 column.</li>
+<li>Collect void fractions (0.5 mL). Usually I see 40-60 % of the loaded protein in void.</li>
+<li>Measure concentration using Bradford or SDS-PAGE (using 4, 2, 1, 0.5 μM of Pab1 as standards). My peak fraction usually contains about 1 – 2 μM Pab1.</li>
+<li>Aliquot and snap-freeze in liquid nitrogen for storage in -80 ̊C.<br />
+</li>
+<li>You may try concentrating the aggregates. I have tried both centrifugation and dialyzing against high PEG solution, but neither really worked. Let me know if you find a method that works.</li>
+</ol>
+<ul>
+<li>Aggregation buffer:
+<ul>
+<li>20 mM HEPES, pH 6.8</li>
+<li>150 mM KCl</li>
+<li>2.5 mM MgCl2</li>
+<li>1 mM DTT</li>
+</ul></li>
+<li>SEC buffer:
+<ul>
+<li>20 mM HEPES, pH 7.3</li>
+<li>150 mM KCl</li>
+<li>2.5 mM MgCl2</li>
+<li>1 mM DTT</li>
+</ul></li>
+</ul>
 </div>
 
 
@@ -739,6 +588,8 @@ footer is added to webpages before the MathJax javascript. -->
 </script>
 
 
+</div>
+</div>
 
 </div>
 
@@ -771,6 +622,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
