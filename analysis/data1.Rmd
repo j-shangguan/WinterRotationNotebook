@@ -9,7 +9,8 @@ editor_options:
 * Purified Pab1 provided by Haneul 
 * Purified Apa1 provided by Caitlin 
 
-## Made Pab1-mRuby2 heat shock condensates (500 ul rxn)
+## Made Pab1-mRuby2 heat shock condensates (500 ul rxn) 
+* Done with Kyle
 1. 55 uM Pab1-mRuby2 stock solution: (55 uM)(x) = 25(500) --> 227.27 ul
 2. Want 1:20 Pab1-mRuby2 in unlabeled Pab1 for 25 uM total --> 227.27/21= 10.8 ul
 3. 158 unlabeled Pab1 stock: (158 uM)(x) = 25(500) --> 79.11*(20/21)= 75.3 ul 

@@ -24,11 +24,13 @@ editor_options:
 ### Take a peek at my project progress
 
 **Here are my experimental plans**: 
+
 * [Plan #1](nextsteps.html)
 
 **This is what I'm up to:** [activity log](dailylog.html)
 
 **Methods/Data/Results:** 
+
 * [#1: Making heat shock condensates (Pab1, Apa1)](data1.html)
 
 [**These are the protocols I am using**](protocols.html)
