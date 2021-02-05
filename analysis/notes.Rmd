@@ -51,6 +51,7 @@ triplet state is a long off state
 * Trolox stabilizes AF647
 * Example imaging buffer composition: 10% glucose/17.5µM glucose oxidase/708 nM catalase/10mM MEA/10 mM NaCl/200mM Tris pH 8.0
     + https://www.pnas.org/content/pnas/suppl/2019/03/18/1817222116.DCSupplemental/pnas.1817222116.sapp.pdf 
+* Paper comparing best dyes for STORM: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3272503/ 
 
 ## Laser Fundamentals
 
@@ -122,15 +123,9 @@ triplet state is a long off state
 
 ## Look into these labs (note to self: read the articles)
 * Michael Rosen Lab
-    + Banani SF, Rice AM, Peeples WB, et al. Compositional Control of           Phase-Separated Cellular Bodies. Cell. 2016;166(3):651-663. doi:10.1016/j.cell.2016.06.010
-    + Banani SF, Lee HO, Hyman AA, Rosen MK. Biomolecular condensates: organizers of cellular biochemistry. Nat Rev Mol Cell Biol. 2017;18(5):285-298. doi:10.1038/nrm.2017.7
+    + Banani SF, Rice AM, Peeples WB, et al. Compositional Control of Phase-Separated Cellular Bodies. Cell. 2016;166(3):651-663. https://doi:10.1016/j.cell.2016.06.010
+    + Banani SF, Lee HO, Hyman AA, Rosen MK. Biomolecular condensates: organizers of cellular biochemistry. Nat Rev Mol Cell Biol. 2017;18(5):285-298. https://doi:10.1038/nrm.2017.7
 * Rohit Pappu Lab
     + “Phase Separation—A physical mechanism for organizing information and biochemical reactions” Develop. Cell
     + Physical Principles Underlying the Complex Biology of Intracellular Phase Transitions Jeong-Mo Choi, Alex S. Holehouse, Rohit V. Pappu. Annual Review of Biophysics 2020 49:1, 107-133
 * Ashutosh Chilkoti Lab
-
-
-```{r}
-
-```
-

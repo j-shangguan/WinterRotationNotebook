@@ -14,7 +14,7 @@ editor_options:
     + Detailed rotation project outline 
 
 ## Week 2: Microscope set-up training
-### Jan 17 
+### 1.17.21 
 * Aligning the laser 
     + prism in front of diode laser
     + lens 
@@ -25,7 +25,7 @@ editor_options:
         - confocal vs widefield setup 
         - adding magnification 
 
-### Jan 18 
+### 1.18.21 
 * Aligning the laser continued
     + adding mirrors to direct beam into microscope
     + adjusting mirrors to center light path and make beam symmetric 
@@ -35,14 +35,14 @@ editor_options:
 * Drummond lab meeting: Jared's research
 * Squires lab meeting: Kyle's research proposal/interests
 
-### Jan 19 
+### 1.19.21
 * Setting up the camera
   + added Kohler lens for widefield microscopy
   + directed light from microscope side port into camera 
   + detected blinking from Sharpie-marked coverslips
 * Meeting with Allan and Allison about my rotation project outline/research plans 
   
-### Jan 20
+### 1.20.21
 * Setting up the camera
   + readjust Kohler lens and lens paths to camera, readjust camera 
 * Imaged Ranchi ruler to get pixel size  
@@ -51,13 +51,13 @@ editor_options:
   + calculating Raleigh scattering and filters needed to attenuate power
   + calculating Raman scattering 
 
-### Jan 21
+### 1.21.21
 * Used UV-Vis to take absorbance data on filters 
     + longpass, emission
     + bandpass
     + excitation
 
-### Jan 22
+### 1.22.21
 * Made fraction of emitted fluorescence spectrum 
 
 ### 1.24.21
@@ -65,12 +65,14 @@ editor_options:
 * Worked on beam intensity calculation
 * Worked on gain conversion calculation
 
-## Week 3: Data Analysis, Rotation Project Material Prep
+## Week 3: Microscope Training Data Analysis, Rotation Project Material Prep
 
 ### 1.25.21
 * Took videos with different white light intensities (for gain calculation)
 * Worked on beam intensity calculation
 * Worked on ppt outline
+* Drummond lab meeting: Hendrik's research
+* Squires lab meeting: Jiachong's qual practice
 
 ### 1.26. 21 
 * Finished beam intensity calculation 
@@ -91,10 +93,24 @@ editor_options:
 * Worked on ppt outline
 
 ### 1.30.21
-* Formed 1:20 Pab1-mRuby2 in unlabeled Pab1 solution (total ~25 uM condensates)
+* Heat shocked 1:20 Pab1-mRuby2 in unlabeled Pab1 solution (total ~25 uM condensates); imaged
 * Worked on ppt outline
 
 ### 1.31.21
 * Worked on ppt outline
 
+## Week 3: Microscope Training Data Analysis, Rotation Project Initial Tests
 
+### 2.1.21
+* I presented on my rotation project proposal
+
+### 2.2.21
+* Worked on particle fitting code
+
+### 2.3.21
+* Worked on photon calculation code 
+* Heat shocked Apa1-mRuby2 (2 uM condensate); imaged
+
+### 2.4.21
+* Measured size of Apa1 and Pab1 condensates
+* Summarized data, planning next steps 

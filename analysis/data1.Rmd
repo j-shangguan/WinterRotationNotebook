@@ -1,0 +1,72 @@
+---
+title: "Results #1: Making condensates (Pab1, Apa1)"
+author: "j-shangguan"
+date: "2021-02-04"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+* Purified Pab1 provided by Haneul 
+* Purified Apa1 provided by Caitlin 
+
+## Made Pab1-mRuby2 heat shock condensates (500 ul rxn)
+1. 55 uM Pab1-mRuby2 stock solution: (55 uM)(x) = 25(500) --> 227.27 ul
+2. Want 1:20 Pab1-mRuby2 in unlabeled Pab1 for 25 uM total --> 227.27/21= 10.8 ul
+3. 158 unlabeled Pab1 stock: (158 uM)(x) = 25(500) --> 79.11*(20/21)= 75.3 ul 
+4. 10.82 ul Ruby + 75.3 ul unlabeled + 564.5 ul aggregation buffer&DTT
+5. Mixed, then 20 min. at 42 deg. C
+6. Spun down at 20 deg. C for 3 min at 8000 g
+7. Imaged 1:4 heat shocked supernatant:aggregation buffer
+* Pipetted 50 ul of this into FCS chamber to image 
+
+## Made Apa1-Ruby heat shock condensates (100 ul rxn)
+* 2 uM of Apa1 was used to mimic physiological concentrations in cell 
+1. 187 uM Apa1-Ruby stock solution: (2 uM)(100) = (187)(x) --> 1 ul Apa1 + 99 ul aggregation buffer&DTT
+2. Mixed, pipetted 50 ul into another tube and 20 min. at 42 deg. C
+3. Other 50 ul of rxn kept on ice --> non-heat shock control 
+4. Pipetted 50 ul of heat shock solution or control solution into FCS chamber to image
+
+## **Notes**
+### Pab1
+* There was a big pellet after spinning down Pab1 heat shock solution
+    + Haneul advises: fluorescently tagged condensates might have slightly different demixing temperature compared to untagged Pab1
+* Small condensates seen on widefield
+* No signal seen when buffer alone was imaged 
+
+### Apa1 
+* Very low condensate density in Apa1 heat shock solution
+* Saw 2 fluorescent spots in my non heat-shock control that were about ~ 1 um; I am assuming most of the Apa1 was in monomer form and diffused fast enough that its signal was not picked up, which is hopefully the case if it was not heat-shocked
+* No signal seen when buffer alone was imaged
+* Haneul and Caitlin advise: 
+    + Potentially the proteins are floating to the edges of my imaging chamber
+    + Can try heat shock at 46 deg. C for 20 min to make more/bigger condensates
+    + For TSP, Caitlin raised temperature a little higher or lowered pH a little to fully move Apa1 to the pellet
+
+## Data: Roughly measured size of some sampled condensates
+### Heat shocked Pab1
+* 802 x 1650 nm 
+* 919.5 x 919.5 nm
+* 748.4 x 786.9 nm 
+* 874.7 x 678.8 nm
+* 321.8 x 553.6 nm
+* 892.6 x 689.6 nm 
+* 726.9 x 906.7 nm
+
+### Heat shocked Apa1
+* 2392.7 x 1471.2 nm
+* 5152.5 x 2574.6 nm 
+* 1647.7 x 2116.4 nm 
+* 1848.2 x 1217.3 nm 
+
+## Apa1 on ice 
+* 494.2 x 505.49 nm 
+* 1244.73 x 969.8 nm 
+
+## Heat shocked Apa1 from Haneul and Caitlin's images
+* 1.5 x 1.7 um
+* 0.98 x 1.7 um
+* 1.25 x 1.03 um
+* 2.28 x 1.84 um
+* 1.45 x 0.9 um
+* 1.4 x 1.8 um
+* 1.7 x 1 um 

@@ -7,4 +7,8 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+### Goals of my rotation project:
+
+* Understanding formation and function of biomolecular condensates
+* Investigating and visualizing protein organization within heat shock-induced condensates
+* Learning imaging approaches to probe the specificity of assembly of heat shock-induced condensates; training will include microscope set-up, protein labeling and potential single-molecule imaging techniques 

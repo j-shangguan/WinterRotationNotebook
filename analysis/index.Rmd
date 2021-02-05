@@ -18,19 +18,19 @@ editor_options:
 
 **Here are helpful articles and notes to get background info:** [literature review](literature.html)
 
-* [Specifically about Nug](nug1.html)
+* [Specifically about Nug1](nug1.html)
 
 
 ### Take a peek at my project progress
 
-**Here are my experimental plans**: [plans](nextsteps.html)
+**Here are my experimental plans**: 
+* [Plan #1](nextsteps.html)
 
 **This is what I'm up to:** [activity log](dailylog.html)
 
-**Data:** (set up webpage)
+**Methods/Data/Results:** 
+* [#1: Making heat shock condensates (Pab1, Apa1)](data1.html)
 
-### Goals of my rotation project:
+[**These are the protocols I am using**](protocols.html)
 
-* Understanding formation and function of biomolecular condensates
-* Investigating and visualizing protein organization within heat shock-induced condensates
-* Learning imaging approaches to probe the specificity of assembly of heat shock-induced condensates; training will include microscope set-up, protein labeling and potential single-molecule imaging techniques 
+

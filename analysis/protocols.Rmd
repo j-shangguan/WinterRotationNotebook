@@ -1,0 +1,39 @@
+---
+title: "Protocols"
+author: "j-shangguan"
+date: "2021-02-04"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Spin coating coverslips
+1. Plug in vacuum, flip switch
+2. Place coverslip on metal plate
+3. 20 ul sample + 80 ul PVA 
+4. Pipette 70 ul of solution from step 3 ontol middle of coverslip
+5. Press start, wait 20 sec
+6. Label with sharpie
+
+## Purifying Pab1 aggregates 
+* Protocol provided by Haneul Yoo (Last modified 12.21.20 by Haneul Yoo)
+* This is the protocol for isolating “small” Pab1 aggregates 
+1. Make 500 μL reaction containing 25 μM Pab1 (+/- 0.25 μM Firefly luciferase) using the aggregation buffer. 
+2. Incubate in 42  ̊C water bath for 20 min. The reaction should stay clear after this heat treatment.
+3. Spin the reaction at 8,000 g for 3 min to spin out any big aggregates. I usually see no or very little pellet.
+4. Take the supernatant and load it onto a pre-equilibrated Sup6 column. 
+5. Collect void fractions (0.5 mL). Usually I see 40-60 % of the loaded protein in void. 
+6. Measure concentration using Bradford or SDS-PAGE (using 4, 2, 1, 0.5 μM of Pab1 as standards). My peak fraction usually contains about 1 – 2 μM Pab1. 
+7. Aliquot and snap-freeze in liquid nitrogen for storage in -80  ̊C.  
+8. You may try concentrating the aggregates. I have tried both centrifugation and dialyzing against high PEG solution, but neither really worked. Let me know if you find a method that works. 
+* Aggregation buffer: 
+    + 20 mM HEPES, pH 6.8
+    + 150 mM KCl
+    + 2.5 mM MgCl2
+    + 1 mM DTT
+* SEC buffer:
+    + 20 mM HEPES, pH 7.3
+    + 150 mM KCl
+    + 2.5 mM MgCl2
+    + 1 mM DTT
+    
